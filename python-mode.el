@@ -556,8 +556,6 @@ If `py-install-directory' isn't set, guess from buffer-file-name. "
                  (file-name-directory (buffer-file-name (car (find-function-noselect 'python-mode)))))))
   (when (interactive-p) (message "%s" load-path)))
 
-(py-set-load-path)
-
 ;; user definable variables
 ;; vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 
